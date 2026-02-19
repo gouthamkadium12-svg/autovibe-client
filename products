@@ -1,0 +1,11 @@
+products
+page.tsx
+app/
+   page.tsx
+   products/
+       page.tsx
+git add .
+git commit -m "Added Products page"
+git push
+app
+   products
