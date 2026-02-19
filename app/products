@@ -1,2 +1,5 @@
 page.tsx
+app/
+  products/
+    page.tsx
 
