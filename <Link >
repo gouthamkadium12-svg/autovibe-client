@@ -1,0 +1,23 @@
+app/page.tsx
+export default function Home() {
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center">
+      <h1 className="text-5xl font-bold text-red-600">
+        AutoVibe 🚗
+      </h1>
+
+      <p className="mt-4 text-gray-400">
+        Upgrade Your Drive.
+      </p>
+
+      <Link href="/products">
+        <button className="mt-6 px-6 py-3 bg-red-600 rounded-lg hover:bg-red-700 transition">
+          Explore Products
+        </button>
+      </Link>
+    </div>
+  );
+}
