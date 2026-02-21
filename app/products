@@ -1,7 +1,4 @@
-page.tsx
-app/ products
-    page.tsx
-
+app/products/page.tsx
 export default function ProductsPage() {
   const products = [
     { id: 1, name: "Alloy Wheels", price: 14999 },
